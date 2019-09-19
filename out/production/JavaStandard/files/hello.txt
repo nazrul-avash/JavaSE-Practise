@@ -1,0 +1,2 @@
+Canonical path is an absolute path and it is always unique.
+ If the path is not absolute it converts into an absolute path and then cleans up the path by removing and resolving stuff like ., .., resolving symbolic links and converting drive letters to a standard case (on Microsoft Windows platforms). We will go through few examples to know what this means.
